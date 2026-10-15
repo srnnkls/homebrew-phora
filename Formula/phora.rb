@@ -1,25 +1,25 @@
 class Phora < Formula
   desc "A git-based artifact package manager and multiplexer for content-addressed file distribution"
   homepage "https://github.com/srnnkls/phora"
-  version "0.4.2"
+  version "0.4.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/srnnkls/phora/releases/download/v0.4.2/phora-aarch64-apple-darwin.tar.xz"
-      sha256 "191900b65d35029b980dbb549cd9a101ba8a22f2e053d7815bfebd18d6f57dda"
+      url "https://github.com/srnnkls/phora/releases/download/v0.4.3/phora-aarch64-apple-darwin.tar.xz"
+      sha256 "57831b60f2454a776fa9c5a3d526225db5afda6579e9e245c163803c7d8528d7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/srnnkls/phora/releases/download/v0.4.2/phora-x86_64-apple-darwin.tar.xz"
-      sha256 "d6dd1c384f151960719e9ed9bd4f19741cfd92c7aa067a9d346c7ee8ea1e5cf4"
+      url "https://github.com/srnnkls/phora/releases/download/v0.4.3/phora-x86_64-apple-darwin.tar.xz"
+      sha256 "cd1b10d19230ff595cd073ef7e325638ddaea88303044e2b2e71a4e23c376c2a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/srnnkls/phora/releases/download/v0.4.2/phora-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a269e602f593f861c0aed6207939942931e1f92c077fc4a75940837dd569a090"
+      url "https://github.com/srnnkls/phora/releases/download/v0.4.3/phora-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5fac9447e010cc365761aec97a190eb7c9d441e81b2923f23227dd19a468c166"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/srnnkls/phora/releases/download/v0.4.2/phora-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e40f66a1af481a7ff7b558a067d93e9177504cec3190f9ae3a55b8b0cad69a37"
+      url "https://github.com/srnnkls/phora/releases/download/v0.4.3/phora-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "357bb9284bc9c85d597abfb5bb96766159d140347b3362220912ee65a3846fe2"
     end
   end
   license "MIT"
